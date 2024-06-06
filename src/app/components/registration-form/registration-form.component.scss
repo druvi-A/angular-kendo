@@ -1,0 +1,68 @@
+.example-wrap {
+  display: flex;
+  justify-content: center;
+}
+.k-form {
+  width: 400px;
+
+  button {
+    border-left: 1px solid black;
+  }
+
+  .k-input-inner {
+    border: 2px solid green !important;
+    opacity: 0;
+  }
+
+  kendo-label {
+    color: red;
+    opacity: 0.6;
+  }
+
+  kendo-dropdownlist {
+    color: red;
+    button {
+      display: none;
+    }
+    // .k-input-inner {
+    //   border: 2px solid green !important;
+    // }
+    // .k-input-button.k-button.k-icon-button.k-button-md.k-button-solid.k-button-solid-base {
+    //   border-left: 1px solid black;
+    // }
+  }
+
+  kendo-dropdownlist {
+    color: red;
+    border: transparent;
+    background-color: transparent;
+    background-image: none;
+    // ng{
+    //   &::shadow
+    // } .k-input-button.k-icon-button {
+    //   display: none;
+    // }
+    ::ng-deep button {
+      display: none;
+      // border-left: 1px solid black;
+    }
+    // ::ng-deep .k-input-button.k-icon-button {
+    //   display: none;
+    // }
+  }
+  .k-input-md.k-input-button,
+  .k-input-md.k-spinner-increase,
+  .k-input-md.k-spinner-decrease,
+  .k-picker-md.k-input-button,
+  .k-picker-md.k-spinner-increase,
+  .k-picker-md.k-spinner-decrease {
+    display: none;
+  }
+
+  // .custom-cls {
+  //   .need-to-hide {
+  //     display: none !important;
+  //     color: blueviolet !important;
+  //   }
+  // }
+}

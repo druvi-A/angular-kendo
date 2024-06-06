@@ -1,0 +1,11 @@
+.app-container {
+  margin: 10px;
+  border: 1px solid steelblue;
+  // padding: 5px;
+  border-radius: 5px;
+  min-height: calc(100vh - 30px);
+
+  .content {
+    padding: 10px;
+  }
+}

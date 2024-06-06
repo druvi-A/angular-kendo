@@ -1,0 +1,24 @@
+ul {
+  margin-left: 20px;
+  margin-top: 20px;
+  width: fit-content;
+}
+
+li {
+  margin-bottom: 8px;
+
+  a {
+    text-decoration: none;
+    color: #111010;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #ead884;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: #1500f7bc;
+      color: #fafafa;
+    }
+  }
+}

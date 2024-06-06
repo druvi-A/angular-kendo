@@ -1,0 +1,20 @@
+<h2>Movies List</h2>
+<div>Find the list of your fav <b>movies</b> here</div>
+<ul>
+  <li *ngFor="let movie of movies">
+    <a [routerLink]="'details/' + movie.name.replace(' ', '_')">{{
+      movie.name
+    }}</a>
+  </li>
+  <!-- <li>
+    <a routerLink="details/The_Shawshank_Redemption"
+      >The Shawshank Redemption</a
+    >
+  </li>
+  <li><a routerLink="details/The_Godfather">The Godfather</a></li>
+  <li><a routerLink="details/The_Dark_Knight">The Dark Knight</a></li>
+  <li><a routerLink="details/Pulp_Fiction">Pulp Fiction</a></li>
+  <li>
+    <a routerLink="details/The_Lord_of_the_Rings">The Lord of the Rings</a>
+  </li> -->
+</ul>
